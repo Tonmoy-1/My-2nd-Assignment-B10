@@ -283,3 +283,64 @@ nav ul li {
   border-radius: 20px;
 }
 /* run section end here */
+
+/* team section start */
+.team-container {
+  width: 90%;
+  margin: 70px auto;
+  height: 100%;
+  margin-left: 60px;
+  /* border: 2px solid white; */
+}
+.team-content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-content h2 {
+  color: white;
+  font-size: 40px;
+}
+.team-content p {
+  color: gray;
+  font-size: 18px;
+  width: 80%;
+  margin: 10px auto;
+}
+.team-member {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 15px;
+  /* border: 2px solid tomato; */
+  width: 90%;
+  border-radius: 15px;
+  background: rgba(60, 60, 60, 0.11);
+}
+
+.member h3 {
+  color: rgba(255, 255, 255, 0.767);
+}
+.member p {
+  color: rgba(220, 220, 220, 0.594);
+}
+.member-detail {
+  text-align: left;
+}
+.member {
+  position: relative;
+  /* border: 2px solid white; */
+  border-radius: 15px;
+}
+.member-detail {
+  position: absolute;
+  margin: -63px 0px 0px 44px;
+}
+.member img {
+  width: 270px;
+  height: 245px;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(60%);
+  border-radius: 15px;
+}
+/* team end start */
