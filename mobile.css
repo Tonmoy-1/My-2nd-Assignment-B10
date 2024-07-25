@@ -25,6 +25,7 @@
     font-size: 40px;
     font-weight: 900;
     line-height: normal;
+    width: 350px;
   }
 
   .hero-btn {
@@ -94,7 +95,53 @@
     text-align: center;
   }
 
+  .run-container {
+    width: 85%;
+    margin: 67px auto;
+    height: 100%;
+    margin-left: 40px;
+    padding: 0px 10px;
+    display: block;
+}
+
+.run-container img {
+  border-radius: 28px;
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding: 12px 19px;
+ 
+}
+.run-content h2 {
+  font-size: 32px;
+  padding: 13px;
+  margin-bottom: -9px;
+}
+
+.run-content p {
+  padding: 8px;
+  width: 90%;
+
+}
+.run-content button{
+ width: 300px;
+ color: white;
+ font-size: 20px;
+ font-weight: 400;
+ margin-left: 10px;
+ margin-bottom: 15px;
+}
+
+
+
+
   .hide {
     display: none;
   }
+
+
+
+
+
+
 }
