@@ -1,8 +1,18 @@
-@media screen and (max-width:576px) {
-
+@media screen and (max-width: 576px) {
   .menu {
-   display: none;
-   margin-bottom: 30px
+    display: none;
+    margin-bottom: 30px;
+  }
+
+  nav h3 {
+    font-size: 40px;
+    width: 70%;
+  }
+
+  .menubar {
+    display: block;
+    color: white;
+    font-size: 25px;
   }
   .hero-container {
     width: 90%;
@@ -12,11 +22,16 @@
   }
   .hero-left h2 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
     line-height: normal;
-  
   }
+
+  .hero-btn {
+    gap: 10px;
+    width: 400px;
+  }
+
   #shape {
     font-family: "Italianno", cursive;
     font-size: 90px;
@@ -33,10 +48,10 @@
   }
 
   .btn {
-    padding: 10px 16px 11px 16px;
-        border: none;
-        border-radius: 18px;
-        font-size: 14px;
+    padding: 15px 17px 15px 17px;
+    border: none;
+    border-radius: 18px;
+    font-size: 20px;
   }
   .hero2-btn {
     border: 1px solid gray;
@@ -46,13 +61,40 @@
     height: 419px;
     filter: brightness(100%);
     position: relative;
-}
-.box1 {
-  width: 135px;
-  height: 67px;
-  position: absolute;
-  margin: -356px 0px 0px 182px;
-  border-radius: 10px;
-}
-  
+  }
+  .box1 {
+    width: 135px;
+    height: 67px;
+    position: absolute;
+    margin: -356px 0px 0px 182px;
+    border-radius: 10px;
+  }
+  .habit-container {
+    margin: 0 auto;
+  }
+
+  .habit-content h2 {
+    font-size: 28px;
+    margin: 4px;
+  }
+  .habit-content p {
+    width: 100%;
+  }
+  .habit-bottom {
+    display: block;
+  }
+
+  .habit4 img {
+    width: 50%;
+    border-radius: 70%;
+    margin-bottom: 20px;
+  }
+  .habit4 {
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .hide {
+    display: none;
+  }
 }
