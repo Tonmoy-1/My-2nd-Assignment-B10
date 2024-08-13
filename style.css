@@ -445,7 +445,7 @@ td {
   /* border: 2px solid tomato; */
   width: 90%;
   border-radius: 15px;
-  background: rgba(60, 60, 60, 0.11);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .member h3 {
