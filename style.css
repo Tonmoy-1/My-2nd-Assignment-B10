@@ -286,6 +286,8 @@ nav ul li {
   height: 300px;
   width: 350px;
   border-radius: 20px;
+  object-fit: none;
+  object-position: 68% 30%;
 }
 /* run section end here */
 

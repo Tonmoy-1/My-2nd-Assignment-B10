@@ -134,11 +134,134 @@
 
 
 
+.bmi-content h2{
+  font-size: 30px;
+  margin-left: -50px;
+}
+.bmi-content p{
+  font-size: 12px;
+  margin-left: -50px;
+  line-height: 20px;
+}
+
+.bmi-main {
+  display: block;
+}
+
+.bmi-table {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+.main-table{
+  color: gray;
+  width: 127%;
+  align-items: flex-end;
+  text-align: left;
+  margin-left: -97px;
+  margin-top: -14px;
+}
+
+.bmi-input h2 {
+  margin-left: -96px;
+  margin-top: 20px;
+}
+.bmi-input p{
+  margin-left: -96px;
+  margin-top: 10px;
+}
+
+.input-table{
+  margin: 0;
+  margin-left: -85px;
+}
+.inptu1{
+  display: flex;
+}
+.input-table input {
+  height: 40px;
+  margin: 5px;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 9px;
+  border-radius: 4px;
+  border: none;
+}
+
+#select1 {
+  padding-right:122px;
+  font-size: 16px;
+ 
+}
+
+#select2 {
+  width: 134%;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  padding-bottom: 500px;
+}
+
+
+.foot1 {
+  padding: 30px 26px;
+  width: 100%;
+}
+
+.foot2 {
+  width: 100%;
+  padding: 10px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
   .hide {
     display: none;
   }
 
+  footer{
+    display: block;
+    margin: 0;
+    pad: 0;
+  }
 
 
 
