@@ -72,8 +72,12 @@
     width: 135px;
     height: 67px;
     position: absolute;
-    margin: -356px 0px 0px 182px;
+    margin: -405px 0px 0px 157px;
     border-radius: 10px;
+  }
+
+  .box2 {
+    margin: -235px 0px 0px 0px;
   }
   .habit-container {
     margin: 0 auto;
@@ -115,7 +119,9 @@
     height: auto;
     margin: 10px auto;
     padding: 12px 19px;
+    object-fit: cover;
   }
+
   .run-content h2 {
     font-size: 32px;
     padding: 13px;
@@ -268,6 +274,18 @@
     display: block;
     margin: 0;
     pad: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .bmi-main {
+    width: 95%;
+  }
+  footer {
+    width: 95%;
+  }
+  .plan-content h2 {
+    margin: 10px 50px;
   }
 }
 
