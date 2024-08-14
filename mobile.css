@@ -229,6 +229,28 @@
   margin: 30px auto;
   height: 100%;}
 
+  .plan3-cards  {
+    display: block;
+    gap: 15px;
+    margin-left: 20px;
+  }
+  .plan-content {
+    width: 85%;
+  }
+  .plan-content h2 {
+    margin: 10px 55px;
+    font-size: 25px;
+  }
+  .plan-content p {
+    font-size: 16px;
+    width: 100%;
+    line-height: 25px;
+
+  }
+  .plan-card {
+    margin: 10px auto;
+  }
+    
 
 
 
@@ -255,7 +277,7 @@
 
 
 footer{
-  padding-bottom: 500px;
+  padding-bottom: 700px;
 }
 
 
@@ -268,7 +290,9 @@ footer{
   width: 100%;
   padding: 10px 30px;
 }
-
+.footer-last {
+  padding: 5px 0px;
+}
 
 
 
@@ -285,7 +309,7 @@ footer{
     display: none;
   }
 
-  footer{
+  .footer{
     display: block;
     margin: 0;
     pad: 0;
