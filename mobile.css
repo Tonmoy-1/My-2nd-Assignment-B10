@@ -1,5 +1,4 @@
 @media screen and (max-width: 576px) {
-
   * {
     margin: 0 auto;
     padding: 0;
@@ -108,128 +107,126 @@
     margin-left: 40px;
     padding: 0px 10px;
     display: block;
-}
+  }
 
-.run-container img {
-  border-radius: 28px;
-  width: 100%;
-  height: auto;
-  margin: 10px auto;
-  padding: 12px 19px;
- 
-}
-.run-content h2 {
-  font-size: 32px;
-  padding: 13px;
-  margin-bottom: -9px;
-}
+  .run-container img {
+    border-radius: 28px;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    padding: 12px 19px;
+  }
+  .run-content h2 {
+    font-size: 32px;
+    padding: 13px;
+    margin-bottom: -9px;
+  }
 
-.run-content p {
-  padding: 8px;
-  width: 90%;
+  .run-content p {
+    padding: 8px;
+    width: 90%;
+  }
+  .run-content button {
+    width: 275px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
 
-}
-.run-content button{
- width: 275px;
- color: white;
- font-size: 20px;
- font-weight: 400;
- margin-left: 10px;
- margin-bottom: 15px;
-}
+  .bmi-table h2 {
+    margin-left: 8px;
+  }
+  .bmi-content h2 {
+    font-size: 30px;
+    margin-left: -46px;
+  }
+  .bmi-content p {
+    font-size: 12px;
+    margin-left: -50px;
+    line-height: 20px;
+  }
 
+  .bmi-main {
+    display: block;
+    width: 95%;
+  }
 
-.bmi-table h2 {
-  margin-left: 8px;
-}
-.bmi-content h2{
-  font-size: 30px;
-  margin-left: -46px;
-}
-.bmi-content p{
-  font-size: 12px;
-  margin-left: -50px;
-  line-height: 20px;
-}
+  .bmi-table {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+  }
+  .main-table {
+    color: gray;
+    width: 127%;
+    align-items: flex-end;
+    text-align: left;
+    margin-left: -77px;
+    margin-top: -14px;
+  }
 
-.bmi-main {
-  display: block;
-}
+  .bmi-input h2 {
+    margin-left: -76px;
+    margin-top: 20px;
+  }
+  .bmi-input p {
+    margin-left: -76px;
+    margin-top: 10px;
+  }
 
-.bmi-table {
-  width: 100%;
-  text-align: left;
-  font-size: 14px;
-}
-.main-table{
-  color: gray;
-  width: 127%;
-  align-items: flex-end;
-  text-align: left;
-  margin-left: -77px;
-  margin-top: -14px;
-}
+  .input-table {
+    margin: 0;
+    margin-left: -85px;
+  }
+  .inptu1 {
+    display: flex;
+  }
+  .input-table input {
+    font-size: 16px;
+    border: none;
+    width: 162px;
+  }
 
-.bmi-input h2 {
-  margin-left: -76px;
-  margin-top: 20px;
-}
-.bmi-input p{
-  margin-left: -76px;
-  margin-top: 10px;
-}
+  .input-table button {
+    padding: 14px 56px 14px 56px;
+  }
 
-.input-table{
-  margin: 0;
-  margin-left: -85px;
-}
-.inptu1{
-  display: flex;
-}
-.input-table input {
-  font-size: 16px;
-  border: none;
-  width: 162px;
-}
+  #select1 {
+    padding-right: 102px;
+    font-size: 16px;
+  }
 
-.input-table button {
-  padding: 14px 56px 14px 56px;
-}
+  #select2 {
+    font-size: 16px;
+    width: auto;
+    padding-right: 138px;
+  }
 
-#select1 {
-  padding-right:102px;
-  font-size: 16px;
- 
-}
+  .team-content h2 {
+    font-size: 30px;
+  }
 
-#select2 {
-  font-size: 16px;
-  width: auto;
-  padding-right: 138px;
-}
+  .team-content p {
+    font-size: 18px;
+    width: 100%;
+    margin: 10px auto;
+    line-height: normal;
+  }
 
-.team-content h2 {
-  font-size: 30px;
-}
+  .team-member {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 
-.team-content p {
-  font-size: 18px;
-  width: 100%;
-  margin: 10px auto;
-  line-height: normal;
-}
+  .team-container {
+    width: 90%;
+    margin: 30px auto;
+    height: 100%;
+  }
 
-.team-member {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.team-container {
-  width: 90%;
-  margin: 30px auto;
-  height: 100%;}
-
-  .plan3-cards  {
+  .plan3-cards {
     display: block;
     gap: 15px;
     margin-left: 20px;
@@ -245,78 +242,46 @@
     font-size: 16px;
     width: 100%;
     line-height: 25px;
-
   }
   .plan-card {
     margin: 10px auto;
   }
-    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-  padding-bottom: 700px;
-}
-
-
-.foot1 {
-  padding: 30px 26px;
-  width: 100%;
-}
-
-.foot2 {
-  width: 100%;
-  padding: 10px 30px;
-}
-.footer-last {
-  padding: 5px 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-  .hide {
-    display: none;
+  footer {
+    padding-bottom: 300px;
   }
 
-  .footer{
+  .foot1 {
+    padding: 30px 26px;
+    width: 100%;
+  }
+
+  .foot2 {
+    width: 100%;
+    padding: 10px 30px;
+  }
+  .footer-last {
+    padding: 5px 0px;
+  }
+
+  .footer {
     display: block;
     margin: 0;
     pad: 0;
   }
+}
 
+@media screen and (max-width: 376px) {
+  .bmi-main {
+    margin-left: 20px;
+    width: 100%;
+  }
+  footer {
+    margin-left: 20px;
+    width: 100%;
+  }
 
-
-
-
+  .plan-content h2 {
+    margin: 10px 50px;
+  }
 }
